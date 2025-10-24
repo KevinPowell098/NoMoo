@@ -1,6 +1,6 @@
 from flask import Flask, request
-import nomovolume
-import nomospeak
+import utils.nomovolume as nomovolume
+import utils.nomospeak as nomospeak
 import time
 
 app = Flask(__name__)
